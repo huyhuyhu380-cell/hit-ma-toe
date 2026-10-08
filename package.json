@@ -1,0 +1,31 @@
+{
+  "name": "ai-taixiu-hitclub",
+  "version": "9.0.0",
+  "description": "AI Tài Xỉu MD5 Pro - HitClub Edition. Dự đoán Tài/Xỉu cho 2 bàn MD5 và Hũ với 16 thuật toán + 5 lớp cân bằng.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "taixiu",
+    "md5",
+    "hitclub",
+    "ai",
+    "prediction",
+    "fastify",
+    "markov",
+    "ensemble"
+  ],
+  "author": "@cskhgiabao",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.28.1",
+    "node-fetch": "^3.3.2"
+  }
+}
